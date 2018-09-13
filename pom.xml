@@ -61,6 +61,12 @@
         </dependency>
         <dependency>
             <groupId>org.xmlunit</groupId>
+            <artifactId>xmlunit-legacy</artifactId>
+            <version>${xmlunit.version}</version>
+            <scope>test</scope>
+        </dependency>
+        <dependency>
+            <groupId>org.xmlunit</groupId>
             <artifactId>xmlunit-assertj</artifactId>
             <version>${xmlunit.version}</version>
             <scope>test</scope>
