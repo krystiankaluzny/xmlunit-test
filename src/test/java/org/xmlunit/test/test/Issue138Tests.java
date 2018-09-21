@@ -33,7 +33,7 @@ public class Issue138Tests {
     }
 
     @Test
-    public void tets() {
+    public void test() {
 
         TestData data = allTestData.get("test1");
 
