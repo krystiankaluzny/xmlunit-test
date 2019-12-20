@@ -7,6 +7,19 @@ import java.util.HashMap;
 import java.util.Map;
 import java.util.Properties;
 
+/**
+ * Read resource file and parse test data.
+ * Your data should be hold in properties naming as follow:
+ * <b>TEST_NAME.testXml</b>
+ * <b>TEST_NAME.controlXml</b>
+ * eg
+ * <pre>
+ * mySuperExtraTest.testXml=&lt;abc&gt;&lt;xyz&gt;&lt;/xyz&gt;&lt;/abc&gt;
+ * mySuperExtraTest.controlXml=&lt;abc&gt;&lt;xyz&gt;&lt;/xyz&gt;&lt;/abc&gt;
+ * </pre>
+ *
+ * If you want prevent removing leading whitespaces, you should start new line with ||.
+ */
 public class TestDataLoader {
 
     private static String testKey = "testXml";
